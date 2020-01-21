@@ -8,7 +8,7 @@ int main(){
     string status;
     cout << "Enter age : ";
     cin >> age;
-    if (age < 20)
+    if (age <= 20)
     {
         cout << "Enter hight : ";
         cin >> hight;
@@ -17,7 +17,7 @@ int main(){
         else {
             cout << "Enter money : ";
             cin >> money;
-            if(money > 69000000) status = "ONE-NIGHT-STAND";
+            if(money < 69000000) status = "ONE-NIGHT-STAND";
             else status = "MARRIED";
         }
     }
